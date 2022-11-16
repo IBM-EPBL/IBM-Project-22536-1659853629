@@ -1,0 +1,50 @@
+<html lang="en" dir="ltr">
+<head>
+<style>
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav p {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Add a color to the active/current link */
+.topnav p.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+		<meta charset="utf-8">
+		<title>Nutrition Image Analysis</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='diabetes-favicon.ico') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	</head>
+	    
+		<!-- Result -->
+<div class="topnav">
+  <p href="#home">NUTRITION IMAGE ANALYSIS</p>
+</div>
+		<div class="results">
+		        <p style="padding-top: 150px; color:black;"><h4 style="color:black; font-size: 150%; text-align: center;"><u><mark>Food Classified is: </mark></u><h4><b><h4 style="color:red;">{{showcase1}}<h4><br><h4 style="color:red;">{{showcase}}<h4></p>
+			
+		</div>
+
+
+		<br>
+		<br>
+       
+    </div>
+	</body>
+</html>
